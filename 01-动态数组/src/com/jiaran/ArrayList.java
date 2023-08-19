@@ -143,7 +143,7 @@ public class ArrayList<E> {
      * 判断数组是否为空
      * @return
      */
-    public boolean isEempty(){
+    public boolean isEmpty(){
         return size==0;
     }
 
