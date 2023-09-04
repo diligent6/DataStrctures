@@ -60,7 +60,7 @@ public class BST<E> extends BinaryTree<E>{
                 return;
             }
         }
-        Node<E> newNode= new Node<>(element,parent);
+        Node<E> newNode= createNode(element,parent);
         if (cmp >0){
             parent.right = newNode;
         }else {

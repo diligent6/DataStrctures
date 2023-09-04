@@ -78,6 +78,11 @@ public class BinaryTree<E>{
     /**
      * 创建节点的方法，用于给AVL树创建节点
      */
+    //TODO:思考一下可以通过new 创建节点为什么还需要这个？答：提高通用性，因为AVLTree 和RBT 节点有所不同 添加的时候通过这个方法能进行扩展并且复用添加逻辑
+    //AVLTree 和RBT 节点 只需要重写这个方法换成自己的对应节点就行了
+    // * 创造节点
+    //* AVL树 与 B数 的节点各自有其特性
+    //* 因此在 BinaryTree 中提供一个方法让他们去覆盖
     protected Node<E> createNode(E element, Node<E> parent) {
         return new Node<>(element, parent); // 默认返回一个通用节点
     }

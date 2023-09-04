@@ -58,7 +58,7 @@ public class AVLTree<E> extends BBST<E>{
     /**
      * 重写父类中的 createNode
      * 返回 AVLNode
-     * TODO：这个是什么作用？
+     * TODO：这个是什么作用？提高通用性，节点不一致对node节点进行了扩展
      */
     @Override
     protected Node<E> createNode(E element, Node<E> parent) {

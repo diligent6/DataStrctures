@@ -65,6 +65,11 @@ public class RBT<E> extends BBST<E>{
         return color(node, RED);
     }
 
+    @Override
+    protected Node<E> createNode(E element, Node<E> parent) {
+        return new RBNode<>(element,parent);
+    }
+
     //===========================================进行增加和删除后方法的编写=======================================================
 
     /**
@@ -154,7 +159,9 @@ public class RBT<E> extends BBST<E>{
         //如果删除的节点是红色 直接返回不处理
         //传入的节点有一个子节点是红色的
         if (isRed(node)){
-            //TODO:为什么把当前节点染成黑色，应该把子节点染成黑色 这里时进行了代码的整合处理 传入的节点时replacement
+            //TODO:为什么把当前节点染成黑色，应该把子节点染成黑色 这里是进行了代码的整合处理 传入的节点时replacement
+            // 如果删除的节点是红色
+            // 或者 用以取代删除节点的子节点是红色
             black(node);
             return;
         }
@@ -208,7 +215,7 @@ public class RBT<E> extends BBST<E>{
                     sibling = parent.right;
                 }
                 //TODO:思考一下为什么要继承父节点的颜色？
-                //我的思考：是为了保持原来父节点的状态，如果进行更改不保持的话可能会造成溢出
+                //我的思考：是为了保持原来父节点的状态，如果进行更改不保持的话可能会造成溢出,不改变原来的状态
                 color(sibling,colorOf(parent));
                 black(sibling.right);
                 black(parent);
