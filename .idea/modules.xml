@@ -5,6 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/01-动态数组/01-动态数组.iml" filepath="$PROJECT_DIR$/01-动态数组/01-动态数组.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-链表/02-链表.iml" filepath="$PROJECT_DIR$/02-链表/02-链表.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-栈和队列/03-栈和队列.iml" filepath="$PROJECT_DIR$/03-栈和队列/03-栈和队列.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-树/04-树.iml" filepath="$PROJECT_DIR$/04-树/04-树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-集合/05-集合.iml" filepath="$PROJECT_DIR$/05-集合/05-集合.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-映射/06-映射.iml" filepath="$PROJECT_DIR$/06-映射/06-映射.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-二叉堆/07-二叉堆.iml" filepath="$PROJECT_DIR$/07-二叉堆/07-二叉堆.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-优先级队列/08-优先级队列.iml" filepath="$PROJECT_DIR$/08-优先级队列/08-优先级队列.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-Tire/09-Tire.iml" filepath="$PROJECT_DIR$/09-Tire/09-Tire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-补充/10-补充.iml" filepath="$PROJECT_DIR$/10-补充/10-补充.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-DS.iml" filepath="$PROJECT_DIR$/.idea/java-DS.iml" />
     </modules>
   </component>
