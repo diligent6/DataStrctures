@@ -12,6 +12,10 @@
       <module fileurl="file://$PROJECT_DIR$/08-优先级队列/08-优先级队列.iml" filepath="$PROJECT_DIR$/08-优先级队列/08-优先级队列.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-Tire/09-Tire.iml" filepath="$PROJECT_DIR$/09-Tire/09-Tire.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-补充/10-补充.iml" filepath="$PROJECT_DIR$/10-补充/10-补充.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-排序/11-排序.iml" filepath="$PROJECT_DIR$/11-排序/11-排序.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-并查集/12-并查集.iml" filepath="$PROJECT_DIR$/12-并查集/12-并查集.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-图/13-图.iml" filepath="$PROJECT_DIR$/13-图/13-图.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-算法策略/14-算法策略.iml" filepath="$PROJECT_DIR$/14-算法策略/14-算法策略.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-DS.iml" filepath="$PROJECT_DIR$/.idea/java-DS.iml" />
     </modules>
   </component>

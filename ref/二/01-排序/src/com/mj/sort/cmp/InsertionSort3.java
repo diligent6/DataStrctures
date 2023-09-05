@@ -5,7 +5,7 @@ import com.mj.sort.Sort;
 public class InsertionSort3<T extends Comparable<T>> extends Sort<T> {
 
 	
-//	protected void sort() {
+//	protected void com.yzcoder.sort() {
 //		for (int begin = 1; begin < array.length; begin++) {
 //			T v = array[begin];
 //			int insertIndex = search(begin);
